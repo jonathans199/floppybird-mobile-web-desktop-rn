@@ -10,7 +10,9 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "electron": "^6.0.12",
     "expo": "~44.0.0",
+    "expo-linear-gradient": "~11.0.3",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
@@ -18,7 +20,9 @@
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@expo/electron-adapter": "^0.0.55",
+    "@expo/webpack-config": "^0.16.20"
   },
   "private": true
 }

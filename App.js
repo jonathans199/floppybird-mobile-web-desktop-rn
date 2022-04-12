@@ -1,13 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar'
+import { StyleSheet, Text, View } from 'react-native'
+import { LinearGradient } from 'expo-linear-gradient'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <LinearGradient colors={['red', 'orange']} style={styles.container}>
+      <Text>Is this cool or what? </Text>
+      <StatusBar style='auto' />
+      <LinearGradient
+        // Button Linear Gradient
+        colors={['#4c669f', '#3b5998', '#192f6a']}
+        style={styles.button}>
+        <Text style={styles.text}>Sign in with Facebook</Text>
+      </LinearGradient>
+    </LinearGradient>
+  )
 }
 
 const styles = StyleSheet.create({
@@ -17,4 +24,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+  button: {
+    height: 20
+  }
+})
