@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-rn-web",
-    "slug": "expo-rn-web",
+    "name": "floppy-bird-mobile-web-desktop",
+    "slug": "floppy-bird-mobile-web-desktop",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

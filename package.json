@@ -1,5 +1,5 @@
 {
-  "name": "expo-rn-web",
+  "name": "floppybird-mobile-web-desktop-rn",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -22,7 +22,8 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@expo/electron-adapter": "^0.0.55",
-    "@expo/webpack-config": "^0.16.20"
+    "@expo/webpack-config": "^0.16.20",
+    "electron-builder": "^23.0.3"
   },
   "private": true
 }
