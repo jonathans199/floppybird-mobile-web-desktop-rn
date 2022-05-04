@@ -42,3 +42,7 @@ One source code to build for 6 platforms:
 ![](./web.gif)
 ---
 
+Checkout Web version deployed to AWS Amplify
+https://dev3591.d3om7c2gqrwvu8.amplifyapp.com/
+
+This project is a test and demo, sorry for the bad graphics, there might be bugs while playing the game. 
